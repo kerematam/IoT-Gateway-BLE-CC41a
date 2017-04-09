@@ -8,7 +8,7 @@ while not ble_con.conn_state == 2 :
 	ble_con.connect_slave(3) # 3 try
 
 	
-server_url = "http://1.2.3.4/server-g.php" 
+server_url = "http://1.2.3.4/server.php" 
 api_key = "NBIWUCM0DHGTLMX"
 
 while True:    
