@@ -7,7 +7,7 @@ while not ble_con.conn_state == 2 :
 	ble_con.query_slaves(3) # 3 try
 	ble_con.connect_slave(3) # 3 try
 
-	
+# changes these varaibles according to your configuration	
 server_url = "http://1.2.3.4/server.php" 
 api_key = "NBIWUCM0DHGTLMX"
 
